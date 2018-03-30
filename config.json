@@ -1,0 +1,13 @@
+{
+    "jwt": {
+        "secretOrKey": "johnsone!ectric"
+    }, 
+    "ldap": {
+        "server":{
+            "url": "ldap://white.johnsonelectric.com:389",
+            "searchBase": "o=JEHL",
+            "searchFilter":"(cn={{username}})",
+            "searchAttributes": ["displayname", "mail","cn","location"]
+        }
+    }
+}
