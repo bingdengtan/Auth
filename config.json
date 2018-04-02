@@ -4,7 +4,9 @@
     }, 
     "ldap": {
         "server":{
-            "url": "ldap://white.johnsonelectric.com:389",
+            "url": "ldap://www01.johnsonelectric.com:389",
+            "bindDN": "cn=bingdeng tan",
+            "bindCredentials": "password1008",
             "searchBase": "o=JEHL",
             "searchFilter":"(cn={{username}})",
             "searchAttributes": ["displayname", "mail","cn","location"]

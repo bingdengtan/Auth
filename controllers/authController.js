@@ -17,7 +17,7 @@ exports.check = function(req, res, next){
           // return the information including a token
           return res.json({
               success: true,
-              message: 'User ' + user.name + ' authenticated successfully!',
+              message: 'User ' + user.cn[0] + ' authenticated successfully!',
               token: token
           });
         };
